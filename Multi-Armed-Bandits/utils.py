@@ -43,3 +43,15 @@ def plot_ArmCount(data, num_iters, bandit, k):
     ax.legend()
     fig.tight_layout()
     plt.show()
+
+def plot_regret(data, num_iters, bandit, player, k):
+    x_index = []
+    for i in range(k):
+        x_index.append(str(i))
+    (_, regret, arm_history) = data[bandit][player]
+    t = np.arange(num_iters)
+    plt.plot(t, regret, color='green', label=player)
+    plt.xlabel("Time steps")
+    plt.ylabel("Regret")
+    plt.legend()
+    plt.show()
