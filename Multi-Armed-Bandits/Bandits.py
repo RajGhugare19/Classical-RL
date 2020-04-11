@@ -11,11 +11,14 @@ class GaussianStationaryBandit(object):
         self.best_payoff = np.max(self.qstar)
         self.best_arm = np.argmax(self.qstar)
         self.num_arms = k
+        self.rew = 0
 
     def pull(self, arm):
         self.arm_history[arm] += 1
         self.regret.append(self.best_payoff - self.qstar[arm])
-        return random.gauss(self.qstar[arm], self.sigma[arm])
+        reward = random.gauss(self.qstar[arm], self.sigma[arm])
+        self.reward += reward
+        return reward
 
     def get_ArmHistory(self):
         return self.arm_history
@@ -29,6 +32,10 @@ class GaussianStationaryBandit(object):
     def reset(self):
         self.arm_history = np.zeros(self.num_arms)
         self.regret = []
+        self.re = 0
+
+    def get_total_reward(self):
+        return self.reward
 
 class BernoulliStationaryBandit(object):
     def __init__(self, k, mu):
@@ -38,11 +45,14 @@ class BernoulliStationaryBandit(object):
         self.best_payoff = np.max(self.qstar)
         self.best_arm = np.argmax(self.qstar)
         self.num_arms = k
+        self.reward = 0
 
     def pull(self, arm):
         self.arm_history[arm] += 1
         self.regret.append(self.best_payoff - self.qstar[arm])
-        return np.random.choice([1,0], p = [self.qstar[arm], 1-self.qstar[arm]])
+        reward =  np.random.choice([1,0], p = [self.qstar[arm], 1-self.qstar[arm]])
+        self.reward += reward
+        return reward
 
     def get_ArmHistory(self):
         return self.arm_history
@@ -56,3 +66,7 @@ class BernoulliStationaryBandit(object):
     def reset(self):
         self.arm_history = np.zeros(self.num_arms)
         self.regret = []
+        self.reward = 0
+
+    def get_total_reward(self):
+        return self.reward

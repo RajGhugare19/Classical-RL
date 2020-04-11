@@ -31,7 +31,8 @@ class epsilon_greedy_agent(BernoulliStationaryBandit):
                     self.epsilon = 1/t
         arm_history = self.bandit.get_ArmHistory()
         regret = self.bandit.get_regret()
-        return self.Q, regret, arm_history
+        total_reward = self.bandit.get_total_reward()
+        return self.Q, regret, arm_history, total_reward
 
 
 class softmax_agent(BernoulliStationaryBandit):
@@ -39,10 +40,10 @@ class softmax_agent(BernoulliStationaryBandit):
         self.bandit = bandit
         self.beta = beta
         self.num_iters = num_iters
-        self.Q = np.zeros(self.bandit.num_arms)
+        self.Q = np.ones(self.bandit.num_arms)
 
     def Softmax_policy(self):
-        prob = np.copy(np.exp(self.Q)/np.sum(np.exp(self.Q)))
+        prob = np.copy(np.exp(self.Q/self.beta)/np.sum(np.exp(self.Q/self.beta)))
         arm = np.random.choice(np.arange(self.bandit.num_arms), p = prob)
         return arm
 
@@ -56,7 +57,8 @@ class softmax_agent(BernoulliStationaryBandit):
             self.Q[arm] = (self.Q[arm]*self.indicator[arm] + reward)/(self.indicator[arm] + 1)
         arm_history = self.bandit.get_ArmHistory()
         regret = self.bandit.get_regret()
-        return self.Q, regret, arm_history
+        total_reward = self.bandit.get_total_reward()
+        return self.Q, regret, arm_history, total_reward
 
 
 class UCB():
@@ -84,7 +86,8 @@ class UCB():
             self.Q[arm] = (self.Q[arm]*a_h[arm] + reward)/(a_h[arm] + 1)
         arm_history = self.bandit.get_ArmHistory()
         regret = self.bandit.get_regret()
-        return np.argmax(self.Q), regret, arm_history
+        total_reward = self.bandit.get_total_reward()
+        return self.Q, regret, arm_history, total_reward
 
 
 class Median_elimination_agent():
@@ -105,11 +108,12 @@ class Median_elimination_agent():
                     self.indicator[arm] += 1
                     self.Q[arm] = (self.Q[arm]*self.indicator[arm] + reward)/(self.indicator[arm] + 1)
             M = np.median(self.Q[self.S])
-            print(self.S)
             self.S = np.delete(self.S, np.where(self.Q[self.S]<M))
             self.epsilon = self.epsilon*3/4
             self.delta = self.delta/2
+            print(self.S)
         arm_history = self.bandit.get_ArmHistory()
         regret =  self.bandit.get_regret()
-        best_arm = self.bandit.get_BestArm()
-        return self.S, regret, arm_history, best_arm
+        total_reward = self.bandit.get_total_reward()
+        #self.s will eventually contain arm
+        return self.S, regret, arm_history,total_reward
