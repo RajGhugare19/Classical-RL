@@ -7,8 +7,8 @@
      A = {0,1,2.....K} , Action set or Arm set
 * Each time an action or an arm is selected a reward will be generated, sampled from any distribution, but specific to every arm.
 
-    $q_*(a)$ is known as the true value function which returns the expected value of the reward distribution of arms.
-    $a^*$ is the true best action.
+    q*(a) is known as the true value function which returns the expected value of the reward distribution of arms.
+    a* is the true best action.
     
     
 ### Solutions : 
