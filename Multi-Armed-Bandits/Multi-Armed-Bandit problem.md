@@ -26,7 +26,7 @@ There are three ways in which we can the think of the solutions for a bandit pro
  $$pr[q_*(a) \geq q_*(a^*) - \epsilon] \geq 1 - \delta $$
  where $\epsilon$,$\delta$ $\in [0,1]$
  
- ### Implementation : 
+ ### Implementation :  
  
  Every algorithm was tested with 10 arms having a bernoulli distribution with : 
  $q_*(a) = [0.1, 0.5, 0.7, 0.73, 0.756, 0.789, 0.81, 0.83, 0.855, 0.865]$
