@@ -117,3 +117,6 @@ class Median_elimination_agent():
         total_reward = self.bandit.get_total_reward()
         #self.s will eventually contain arm
         return self.S, regret, arm_history,total_reward
+
+class Policy_grad():
+    def __init__(self, bandit):
