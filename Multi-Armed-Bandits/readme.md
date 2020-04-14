@@ -14,4 +14,10 @@ I have implemented the following algorithms in agents.py
 - [x] softmax
 - [x] UCB1
 - [x] Median elimination
+The ones which I havent implemented(You could/should if you want to)
+- [] Other variants of UCB
+- [] Thompson sampling
+- [] Policy gradient methods
+
+After you are done with this I would recommend to go through the notes that I made.These notes are short and summarize the topics in a really brief manner.I would suggest you to make similar notes
 
