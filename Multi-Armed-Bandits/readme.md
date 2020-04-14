@@ -1,8 +1,7 @@
 # Multi-Armed bandits(Immediate RL problems)
 Multi-armed bandits are ignored by a lot of people who begin studying RL,but I think that it is the best place to gain a strong mathematical foothold and get an idea of how things would work in a RL problem.
 
-### These are my short summaries and some detailed notes on multi-armed bandits.
-* [Overview of the Multi-armed bandit problem](https://hackmd.io/CZQq2azUTMCjt2FF_TQNfQ?view)
+### Hello world of Reinforcement learning.
 
 I would strongly advice you guys to go through the resources I am going to list down.These will be enough for theoretically studying bandits.
 1. [Getting to know the problem](https://en.wikipedia.org/wiki/Multi-armed_bandit)  
@@ -21,4 +20,4 @@ I have implemented the following algorithms in agents.py
 #The ones which I havent implemented(You could/should if you want to).
 
 After you are done with this I would recommend to go through the notes that I made.These notes are short and summarize the topics in a really brief manner.I would suggest you to make similar notes
-
+* [Overview of the Multi-armed bandit problem](https://hackmd.io/CZQq2azUTMCjt2FF_TQNfQ?view)
