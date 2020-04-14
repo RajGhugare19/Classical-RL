@@ -18,7 +18,7 @@ I have implemented the following algorithms in agents.py
 - [ ] Thompson sampling
 - [ ] Policy gradient methods
 
-#The ones which I havent implemented(You could/should if you want to)
+#The ones which I havent implemented(You could/should if you want to).
 
 After you are done with this I would recommend to go through the notes that I made.These notes are short and summarize the topics in a really brief manner.I would suggest you to make similar notes
 
