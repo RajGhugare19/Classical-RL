@@ -3,7 +3,7 @@ Multi-armed bandits are ignored by a lot of people who begin studying RL,but I t
 
 ### Hello world of Reinforcement learning.
 
-I would strongly advice you guys to go through the resources I am going to list down.These will be enough for theoretically studying bandits.
+I would strongly advice you guys to go through the resources I am going to list down.These will be enough for theoretically studying bandits(atleast enough to get a basic understanding of immediate RL).
 1. [Getting to know the problem](https://en.wikipedia.org/wiki/Multi-armed_bandit)  
 Just go through the introduction from wikipedia.
 2. [Proffesor Balaraman Ravindran's RL week 1 and week 2](https://nptel.ac.in/courses/106106143/)  
