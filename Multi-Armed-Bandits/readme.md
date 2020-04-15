@@ -19,7 +19,7 @@ I have implemented the following algorithms in agents.py
 
 #The ones which I havent implemented(You could/should if you want to).
 
-After you are done with this I would recommend to go through the notes that I made in the following order.These notes are short and summarize the topics in a really brief manner.I would suggest you to make similar notes
+After you are done with this I would recommend to go through the notes that I made in the following order.These notes summarize the topics in a brief manner.I would suggest you to make similar notes
 * [Overview of the Multi-armed bandit problem](https://hackmd.io/CZQq2azUTMCjt2FF_TQNfQ?view)
 * [Regret optimality with UCB1](https://hackmd.io/-DkQQy8DRYezVXDqUaPsYQ)
 * [PAC bounds with median elimination](https://hackmd.io/saK7DdqCRnyBfN3HykLhlA)
