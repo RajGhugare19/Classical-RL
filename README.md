@@ -5,7 +5,6 @@ I have included:
 
 - [x] Detailed instructions about how to understand and learn the topics sequentially.
 - [x] Free Resources that I found to be helpful(Video lecture links, online articles and blogs).
-- [x] My notes on almost all important topics.
 - [x] Research papers and my review notes.
 
 Please contribute if you think you have more sources or notes to share :)
