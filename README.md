@@ -3,7 +3,7 @@ After a year of exploring the field as a beginner, I think I have approximated a
 
 I have included:
 
-- [x] Detailed instructions about how to understand and learn the topics sequentially.
+- [x] Python implementations of various topics in sequential order.
 - [x] Free Resources that I found to be helpful(Video lecture links, online articles and blogs).
 - [x] Research papers and my review notes.
 
