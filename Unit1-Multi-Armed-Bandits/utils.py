@@ -1,29 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def epsilon_greedy_softmax_compare(data, num_iters, bandit, k):
-    #Compares arm historyt of espilon greedy and softmax
-    x_index = []
-    for i in range(k):
-        x_index.append(str(i))
-    (e_Q, e_regret, e_arm_history) = data[bandit]["epsilon_greedy"]
-    (s_Q, s_regret, s_arm_history) = data[bandit]["softmax"]
-
-    location = np.arange(k)
-    width = 0.35
-
-    (fig, ax) = plt.subplots(1,1)
-
-    rects1 = ax.bar(location-width/2, e_arm_history, width=width, color='red', label='epsilon_greedy', edgecolor='black')
-    rects2 = ax.bar(location+width/2, s_arm_history, width=width, color='green', label='softmax', edgecolor='black')
-
-    ax.set_ylabel('Arm pull history')
-    ax.set_title('Number of times arm pulled')
-    ax.set_xticks(location)
-    ax.set_xticklabels(x_index)
-    ax.legend()
-    fig.tight_layout()
-    plt.show()
 
 def plot_ArmCount(data, num_iters, bandit, k):
     x_index = []
