@@ -5,7 +5,6 @@ I have included:
 
 - [x] Python implementations of various topics in sequential order.
 - [x] Free Resources that I found to be helpful(Video lecture links, online articles and blogs).
-- [x] Research papers and my review notes.
 
 Please feel free to open up a PR if you think you have more sources or notes to share :)
 
