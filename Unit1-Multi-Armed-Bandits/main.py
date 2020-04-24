@@ -2,8 +2,8 @@ from agents import epsilon_greedy_agent
 from agents import softmax_agent
 from agents import Median_elimination_agent
 from agents import UCB
-from Bandits import GaussianStationaryBandit
-from Bandits import BernoulliStationaryBandit
+from bandits import GaussianStationaryBandit
+from bandits import BernoulliStationaryBandit
 from utils import plot_ArmCount
 from utils import plot_regret
 import numpy as np

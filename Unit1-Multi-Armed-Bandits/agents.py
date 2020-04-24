@@ -7,8 +7,8 @@
 
 import random
 import numpy as np
-from Bandits import BernoulliStationaryBandit
-from Bandits import GaussianStationaryBandit
+from bandits import BernoulliStationaryBandit
+from bandits import GaussianStationaryBandit
 
 
 class epsilon_greedy_agent(BernoulliStationaryBandit):
