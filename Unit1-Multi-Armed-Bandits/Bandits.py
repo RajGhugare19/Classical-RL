@@ -1,7 +1,7 @@
 
 #######################################################################
 # Copyright (C)                                                       #
-# 2020(rajghugare.vnit@gmail.com)                                  #
+# 2020(rajghugare.vnit@gmail.com)                                     #
 # Permission given to modify the code as long as you keep this        #
 # declaration at the top                                              #
 #######################################################################
