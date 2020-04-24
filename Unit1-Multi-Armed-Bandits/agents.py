@@ -1,3 +1,10 @@
+#######################################################################
+# Copyright (C)                                                       #
+# 2020(rajghugare.vnit@gmail.com)                                     #
+# Permission given to modify the code as long as you keep this        #
+# declaration at the top                                              #
+#######################################################################
+
 import random
 import numpy as np
 from Bandits import BernoulliStationaryBandit
