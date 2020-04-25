@@ -19,4 +19,4 @@ These are my notes on these topics.
 
 
 References:
-1. If you'd want to make your own blob environment then you can watch this [tutorial](https://www.youtube.com/watch?v=G92TF4xYQcU&list=PLQVvvaa0QuDezJFIOU5wDdfy4e9vdnx-7&index=4) to start.
+1. If you want to make your own blob environment then you can watch this [sentdex tutorial](https://www.youtube.com/watch?v=G92TF4xYQcU&list=PLQVvvaa0QuDezJFIOU5wDdfy4e9vdnx-7&index=4).
