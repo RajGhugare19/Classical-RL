@@ -12,6 +12,8 @@ I have implemented the following
 - [x] Asynchronous value iteration
 - [ ] Real time dynamic programming
 
+The MDP which I have used is from the example 3.5 - Gridworld from Sutton and Barton.
+
 These are my notes on these topics.
 * [Bellman Equation](https://hackmd.io/Fuhp2hwyR4GknchLGBGTWw)
 * [Bellman Optimality Equation](https://hackmd.io/wqQyQAvlTVeGzLsaVLUswg)
