@@ -1,3 +1,10 @@
+#######################################################################
+# Copyright (C)                                                       #
+# 2020(rajghugare.vnit@gmail.com)                                     #
+# Permission given to modify the code as long as you keep this        #
+# declaration at the top                                              #
+#######################################################################
+
 from agents import epsilon_greedy_agent
 from agents import softmax_agent
 from agents import Median_elimination_agent
