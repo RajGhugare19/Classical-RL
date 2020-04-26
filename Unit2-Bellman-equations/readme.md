@@ -18,6 +18,7 @@ These are my notes on these topics.
 * [Bellman Equation](https://hackmd.io/Fuhp2hwyR4GknchLGBGTWw)
 * [Bellman Optimality Equation](https://hackmd.io/wqQyQAvlTVeGzLsaVLUswg)
 * [Value Iteration](https://hackmd.io/3o8W1o4rS6ikMs42PVXPAw)
+* [Policy Iteration](https://hackmd.io/8F3m-j59TB-RaxP3ysVsCg?both)
 
 
 References:
