@@ -1,3 +1,10 @@
+#######################################################################
+# Copyright (C)                                                       #
+# 2020(rajghugare.vnit@gmail.com)                                     #
+# Permission given to modify the code as long as you keep this        #
+# declaration at the top                                              #
+#######################################################################
+
 import gym
 import numpy as np
 import matplotlib.pyplot as plt
