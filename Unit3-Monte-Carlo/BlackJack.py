@@ -2,6 +2,7 @@ import gym
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+from utils import plot
 
 env= gym.make('Blackjack-v0')
 GAMMA = 1
@@ -37,7 +38,7 @@ def behaviour_policy():
 
 
 # Monte Carlo Off policy control to find optimal policy
-for i in range(500000):
+for i in range(1000000):
     states = []
     actions = []
     rewards = []
@@ -73,7 +74,7 @@ def play(n):
     win = 0
     loss = 0
     draw = 0
-    for i in range(1000):
+    for i in range(n):
         score = 0
         done = False
         s = env.reset()
@@ -91,4 +92,4 @@ def play(n):
     print(loss)
     print(draw)
 
-play(100)
+plot(target_policy)
