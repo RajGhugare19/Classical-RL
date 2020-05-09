@@ -1,8 +1,11 @@
 # Bellman equations and solving MDPs
 Markov Decision Processes bring in the sequential decision making and delayed reward aspects of RL.
 
-1. [Professor Balaraman Ravindran's RL week 3,4 and 5th only till policy iteration](https://nptel.ac.in/courses/106106143/)
-2. [Sutton and Barton chapter 3 and 4](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+1. [Stanford CS234 lecture 2](https://www.youtube.com/watch?v=E3f2Camj0Is&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=2)
+2. [Professor Balaraman Ravindran's RL week 3,4 and 5th only till policy iteration](https://nptel.ac.in/courses/106106143/)
+3. [Sutton and Barton chapter 3 and 4](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+
+Balaram's lectures are more of classical RL and math intensive, So it is better to watch CS234 first.
 
 You should implement the algorithms once you understand the proofs.   
 I have implemented the following :
