@@ -1,4 +1,5 @@
 # Temporal-difference model free methods
+Temporal difference methods are the heart of Reinforcement learning.
 
 1. [CS234 Lecture 4](https://www.youtube.com/watch?v=j080VBVGkfQ&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=4)
 2. [Professor Balaraman Ravindran's RL untill the end of week 6](https://nptel.ac.in/courses/106106143/)
