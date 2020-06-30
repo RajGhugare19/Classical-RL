@@ -9,7 +9,7 @@ I would strongly advice you guys to go through the resources I am going to list 
 2. [Professor Balaraman Ravindran's RL week 1 and week 2](https://nptel.ac.in/courses/106106143/)  
 3. [Sutton and Barton chapter 2](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
-As you are watching the lectures it is a must that you code the algorithms as you learn them.
+As you are watching the lectures it is a good idea that you code the algorithms as you learn them.
 
 I have implemented the following algorithms in agents.py
 - [X] epsilon-greedy
