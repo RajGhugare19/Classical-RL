@@ -15,7 +15,9 @@ I have implemented the following :
 - [x] Asynchronous value iteration
 - [ ] Real time dynamic programming
 
-The MDP which I have used is from the example 3.5 - Gridworld from Sutton and Barton.
+The MDP which I have used is from the example 3.5 - Gridworld from Sutton and Barton.After running the code we can obtain figure 3.15 from the textbook
+
+![](https://i.imgur.com/uwnhUyi.png)
 
 These are my notes on these topics.
 * [Bellman Equation](https://hackmd.io/Fuhp2hwyR4GknchLGBGTWw)
