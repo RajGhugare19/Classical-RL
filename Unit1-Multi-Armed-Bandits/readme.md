@@ -20,6 +20,11 @@ I have implemented the following algorithms in agents.py
 - [ ] Thompson sampling
 - [ ] Policy gradient methods
 
+Results:
+![](https://i.imgur.com/H4u6UaE.png)
+
+this shows the number of times different algorithms pulled different arms(arms are in ascending as per expected values)
+
 The ones which I havent implemented(You could/should if you want to).
 
 After you are done with this I would recommend to go through the notes that I made in the following order.These notes summarize the topics in a brief manner.I would suggest you to make similar notes
