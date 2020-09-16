@@ -24,4 +24,4 @@ My solutions to the exercises of [Sutton and Barton's book](https://web.stanford
 These solutions could have some errors and if you find something wrong please open a pull request by changing the readme and specifying the mistake in it.
 
 #### Solutions to problems which are not included
-If you want to provide your solutions then write your solutions in latex using [hackmd](https://hackmd.io/?nav=overview) and append it to the readme in your pull request.I will add the solutions if they are appropriate.
+If you want to provide your solutions then write your solutions in markdown using [hackmd](https://hackmd.io/?nav=overview) and append it to the readme in your pull request.I will add the solutions if they are appropriate.
