@@ -12,7 +12,7 @@ Please feel free to open up a PR if you think you have more sources or notes to 
 
 ### Solutions
 My solutions to the exercises of [Sutton and Barton's book](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
-
+* [Chapter 2](https://hackmd.io/@Raj-Ghugare/HkfDBDlfv)
 * [Chapter 3](https://hackmd.io/@Raj-Ghugare/HkFPsyXtU)
 * [Chapter 4](https://hackmd.io/@Raj-Ghugare/H1IooEiyw)
 * [Chapter 5](https://hackmd.io/@Raj-Ghugare/SkaSu3HxD)
