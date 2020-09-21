@@ -1,6 +1,12 @@
 # Multi-Armed bandits(Immediate RL problems)
 Multi-armed bandits are ignored by a lot of people who begin studying RL,but I think that it is the best place to gain a strong mathematical foothold and get an idea of how things would work in a RL problem.
 
+### My notes
+
+* [Overview of the Multi-armed bandit problem](https://hackmd.io/CZQq2azUTMCjt2FF_TQNfQ?view)
+* [Regret optimality with UCB1](https://hackmd.io/-DkQQy8DRYezVXDqUaPsYQ)
+* [PAC bounds with median elimination](https://hackmd.io/saK7DdqCRnyBfN3HykLhlA)
+
 ### Hello world of Reinforcement learning.
 
 I would strongly advice you guys to go through the resources I am going to list down.These will be enough for theoretically studying bandits(atleast enough to get a basic understanding of immediate RL).
@@ -27,9 +33,7 @@ this shows the number of times different algorithms pulled different arms(arms a
 
 The ones which I havent implemented(You could/should if you want to).
 
-After you are done with this I would recommend to go through the notes that I made in the following order.These notes summarize the topics in a brief manner.I would suggest you to make similar notes
-* [Overview of the Multi-armed bandit problem](https://hackmd.io/CZQq2azUTMCjt2FF_TQNfQ?view)
-* [Regret optimality with UCB1](https://hackmd.io/-DkQQy8DRYezVXDqUaPsYQ)
-* [PAC bounds with median elimination](https://hackmd.io/saK7DdqCRnyBfN3HykLhlA)
+After you are done with this I would recommend to go through the notes that I made.These notes summarize the topics in a brief manner.I would suggest you to make similar notes
+
 
 
