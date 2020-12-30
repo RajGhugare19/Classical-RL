@@ -8,6 +8,10 @@ this repo has:
 
 Please feel free to open up a PR if you think you have more sources or notes to share :)
 
+## My Blog
+
+[Nuts and Bolts of RL](https://hackmd.io/@Raj-Ghugare/r1ttq0PNw)
+
 ## Reinforcement-Learning-An-Introduction-second-edition
 
 ### Solutions
