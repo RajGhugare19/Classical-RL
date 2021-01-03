@@ -13,8 +13,8 @@ Please feel free to open up a PR if you think you have more sources or notes to 
 * [Nuts and Bolts of RL](https://hackmd.io/@Raj-Ghugare/r1ttq0PNw)                                
 * [Multi-Armed Bandits and how to solve them](https://hackmd.io/@Raj-Ghugare/rkkk1XCVw)                                  
 * [Policy Gradient theorem](https://hackmd.io/@Raj-Ghugare/rygKPUD08)                                                  
-* [REINFORCE what you've learnt](https://hackmd.io/@Raj-Ghugare/BJGFOdmCL)                                       
- 
+* [REINFORCE what you've learnt](https://hackmd.io/@Raj-Ghugare/BJGFOdmCL)                                                                                      
+* [Value Equivalence for model-based RL](https://hackmd.io/@Raj-Ghugare/HkEY6o9MP)
 
 ## Reinforcement-Learning-An-Introduction-second-edition
 
@@ -23,7 +23,7 @@ My solutions to the exercises of [Sutton and Barton's book](https://web.stanford
 * [Chapter 2](https://hackmd.io/@Raj-Ghugare/HkfDBDlfv)
 * [Chapter 3](https://hackmd.io/@Raj-Ghugare/HkFPsyXtU)
 * [Chapter 4](https://hackmd.io/@Raj-Ghugare/H1IooEiyw)
-* [Chapter 5](https://hackmd.io/@Raj-Ghugare/SkaSu3HxD)
+* [Chapter 5](https://hackmd.io/@Raj-Ghugare/SkaSu3HxD)                                      
 * [Chapter 6](https://hackmd.io/@Raj-Ghugare/BkZZ3PaKL)
 
 ### How to contribute
